@@ -40,7 +40,7 @@ kubectl krew install hlf
 
 Instalar binarios de Istio en la maquina:
 ```bash
-curl -L https://istio.io/downloadIstio | sh -
+curl -L https://istio.io/downloadIstio | ISTIO_VERSION=1.23.6 sh -
 ```
 
 Instalar Istio en el cluster de Kubernetes:
